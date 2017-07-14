@@ -6,7 +6,8 @@ An easy to use Procedural 2D map created in Unity.
 Create a new GameObject and add the component “ProceduralMap”. 
 
 Change the map size, edit at will the properties and play the scene or click “Generate”.
-
+The property “CollisionPrefab” will take a prefab, in most cases you would like to add
+a Prefab with a SpriteRenderer and a BoxCollider2D. 
 
 To generate a new map in another script add the next using directive : 
 
