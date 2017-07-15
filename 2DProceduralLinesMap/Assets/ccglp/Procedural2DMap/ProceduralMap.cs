@@ -170,24 +170,26 @@ namespace ccglp.Procedural
 
         private void GenerateHorizontalLimits()
         {
-            for (int i = -1; i <= worldMapSize.x; i++)
-            {
-                ((GameObject)Instantiate(prefabColision, GetWorldPoint(i, -1), Quaternion.identity)).transform.SetParent(father.transform);
-                ((GameObject)Instantiate(prefabColision, GetWorldPoint(i, (int)worldMapSize.y), Quaternion.identity)).transform.SetParent(father.transform);
-            }
+            InstantiateGroupSquare(prefabColision, new Vector3((worldMapSize.x-1) * 0.5f , -1), new Vector3(nodeSize * (worldMapSize.x + 2), 1, 1));
+            InstantiateGroupSquare(prefabColision, new Vector3((worldMapSize.x-1) * 0.5f , worldMapSize.y), new Vector3(nodeSize * (worldMapSize.x + 2), 1, 1));
         }
 
         private void GenerateVerticalLimits()
         {
-            for (int j = -1; j <= worldMapSize.y; j++)
-            {
-                ((GameObject)Instantiate(prefabColision, GetWorldPoint(-1, j), Quaternion.identity)).transform.SetParent(father.transform);
-                ((GameObject)Instantiate(prefabColision, GetWorldPoint((int)worldMapSize.x, j), Quaternion.identity)).transform.SetParent(father.transform);
-            }
+            InstantiateGroupSquare(prefabColision, new Vector3(-1, worldMapSize.y * 0.5f - nodeSize * 0.5f), new Vector3(1, nodeSize * (worldMapSize.y + 2), 1));
+            InstantiateGroupSquare(prefabColision, new Vector3(worldMapSize.x, worldMapSize.y * 0.5f - nodeSize * 0.5f), new Vector3(1, nodeSize * (worldMapSize.y + 2), 1));
         }
 
+        private void InstantiateGroupSquare(GameObject prefab, Vector3 position, Vector3 scale)
+        {
+            GameObject aux = ((GameObject)Instantiate(prefab, GetWorldPoint(position.x, position.y), Quaternion.identity));
+            aux.transform.SetParent(father.transform);
+            aux.transform.localScale = scale;
+        }
+     
 
-        public Vector2 GetWorldPoint(int x, int y)
+
+        public Vector2 GetWorldPoint(float x, float y)
         {
             Vector2 aux = new Vector2();
 
@@ -287,7 +289,7 @@ namespace ccglp.Procedural
 
 
 
-
+       
         void DrawMap()
         {
             Vector2 worldPosition = MapStartWorldPoint;
@@ -427,6 +429,12 @@ namespace ccglp.Procedural
         {
             this.x = x;
             this.y = y;
+        }
+
+        public void Change(uint x, uint y)
+        {
+            this.x = x;
+            this.y = y; 
         }
     }
 }
