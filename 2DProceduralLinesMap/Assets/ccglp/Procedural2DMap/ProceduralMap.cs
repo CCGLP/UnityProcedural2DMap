@@ -213,7 +213,7 @@ namespace ccglp.Procedural
         }
 
 
-        private void GenerateBranch(Line line)
+        private void GenerateBranch(in Line line)
         {
 
             if (Random.Range(0, 100) <= 50)
@@ -226,7 +226,7 @@ namespace ccglp.Procedural
             }
         }
 
-        private void GenerateBranchUpRight(Line line)
+        private void GenerateBranchUpRight(in Line line)
         {
             int branchIterations = 0;
             PositivePoint pos = GetBranchStartPoint(line);
@@ -246,7 +246,7 @@ namespace ccglp.Procedural
             }
         }
 
-        private void GenerateBranchDownLeft(Line line)
+        private void GenerateBranchDownLeft(in Line line)
         {
             int branchIterations = 0;
             PositivePoint pos = GetBranchStartPoint(line);
@@ -267,7 +267,7 @@ namespace ccglp.Procedural
             }
         }
 
-        private PositivePoint GetBranchStartPoint(Line line)
+        private PositivePoint GetBranchStartPoint(in Line line)
         {
             PositivePoint result = new PositivePoint(0, 0);
             switch (line.Type)
