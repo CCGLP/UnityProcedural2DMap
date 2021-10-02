@@ -1,10 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace ccglp.Procedural
 {
-    public class Line
+    public readonly struct Line
     {
         public enum LineType
         {
@@ -13,10 +11,9 @@ namespace ccglp.Procedural
             VERTICAL
         }
 
-        private LineType type;
-        private float nodeSize;
-        private PositivePoint worldSize, startPoint;
-
+        private readonly LineType type;
+        private readonly float nodeSize;
+        private readonly PositivePoint worldSize, startPoint;
 
         public Line(PositivePoint startPoint, LineType type, float nodeSize, PositivePoint worldSize)
         {
@@ -27,32 +24,18 @@ namespace ccglp.Procedural
         }
 
         public Vector2 GetWorldStartPoint()
-        {
-            Vector2 aux = new Vector2();
-
-            aux.x = startPoint.x < (worldSize.x * 0.5f) ? (startPoint.x - (worldSize.x) * 0.5f) * nodeSize : (startPoint.x - (worldSize.x) * 0.5f) * nodeSize;
-            aux.y = startPoint.y < (worldSize.y * 0.5f) ? (startPoint.y - (worldSize.y) * 0.5f) * -nodeSize : -(startPoint.y - (worldSize.y) * 0.5f) * nodeSize;
-            return aux;
-
-
-        }
-
-
+            => new Vector2
+            {
+                x = (startPoint.x - worldSize.x * 0.5f) * nodeSize,
+                y = (startPoint.y < worldSize.y * 0.5f)
+                    ? +(startPoint.y - worldSize.y * 0.5f) * -nodeSize
+                    : -(startPoint.y - worldSize.y * 0.5f) * +nodeSize,
+            };
 
         public LineType Type
-        {
-            get
-            {
-                return type;
-            }
-        }
+            => type;
 
         public PositivePoint StartPoint
-        {
-            get
-            {
-                return startPoint;
-            }
-        }
+            => startPoint;
     }
 }

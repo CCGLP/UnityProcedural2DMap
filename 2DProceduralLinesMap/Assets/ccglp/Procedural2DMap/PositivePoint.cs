@@ -1,9 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-
-namespace ccglp.Procedural
+﻿namespace ccglp.Procedural
 {
 
     [System.Serializable]
