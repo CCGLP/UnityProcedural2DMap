@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace ccglp.Procedural
 {
@@ -18,27 +16,12 @@ namespace ccglp.Procedural
         }
 
         public uint BranchLongitude
-        {
-            get
-            {
-                return branchLongitude;
-            }
-        }
+            => branchLongitude;
 
         public uint BranchQuantity
-        {
-            get
-            {
-                return branchQuantity;
-            }
-        }
+            => branchQuantity;
 
         public uint NumberOfLines
-        {
-            get
-            {
-                return numberOfLines;
-            }
-        }
+            => numberOfLines;
     }
 }
