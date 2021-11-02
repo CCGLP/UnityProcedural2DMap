@@ -2,8 +2,6 @@
 An easy to use Procedural 2D map created in Unity. 
 Works in all versions of Unity, Demo Project updated to Unity 2021.2.0f1
 
-![](https://i.gyazo.com/4b324d03ba9f79400d63873275fde612.png)
-
 ## Use 
 Create a new GameObject and add the component “ProceduralMap”. 
 
