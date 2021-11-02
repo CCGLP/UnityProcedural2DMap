@@ -1,0 +1,278 @@
+Using pre-set license
+Built from '2021.2/release' branch; Version is '2021.2.0f1 (4bf1ec4b23c9) revision 4977132'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 22000.282; Version 2009; 64bit' Language: 'en' Physical Memory: 32718 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+B:/Proyectos/UnityProcedural2DMap/2DProceduralLinesMap
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53991
+Successfully changed project path to: B:/Proyectos/UnityProcedural2DMap/2DProceduralLinesMap
+B:/Proyectos/UnityProcedural2DMap/2DProceduralLinesMap
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 38.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.0f1 (4bf1ec4b23c9)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path B:/Proyectos/UnityProcedural2DMap/2DProceduralLinesMap/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2080 (ID=0x1e87)
+    Vendor:   NVIDIA
+    VRAM:     8010 MB
+    Driver:   30.0.14.7212
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56380
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003634 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 34.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.636 seconds
+Domain Reload Profiling:
+	ReloadAssembly (636ms)
+		BeginReloadAssembly (53ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (343ms)
+			LoadAssemblies (52ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (84ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (194ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (34ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (115ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003611 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  0.895 seconds
+Domain Reload Profiling:
+	ReloadAssembly (895ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (681ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (143ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (362ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (217ms)
+				ProcessInitializeOnLoadMethodAttributes (79ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2144 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 58 unused Assets / (56.8 KB). Loaded Objects now: 2577.
+Memory consumption went from 87.3 MB to 87.3 MB.
+Total: 5.509400 ms (FindLiveObjects: 0.177400 ms CreateObjectMapping: 0.048100 ms MarkObjects: 5.199800 ms  DeleteObjects: 0.082900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 896773.952046 seconds.
+  path: Assets/ccglp/Procedural2DMap
+  artifactKey: Guid(a0fb9d2acb3f947c39c27f56ca8355a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ccglp/Procedural2DMap using Guid(a0fb9d2acb3f947c39c27f56ca8355a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c6bd987b25e08bc43078ff53bccdd25') in 0.009465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.926926 seconds.
+  path: Assets/Scenes/ProceduralTest.unity
+  artifactKey: Guid(bf926518332ff8a4b86130ffcd527d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ProceduralTest.unity using Guid(bf926518332ff8a4b86130ffcd527d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f71de03dd642c249231921c627b183') in 0.012920 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003681 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.843 seconds
+Domain Reload Profiling:
+	ReloadAssembly (844ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (650ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (145ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (328ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (197ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2138 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (25.6 KB). Loaded Objects now: 2579.
+Memory consumption went from 87.1 MB to 87.1 MB.
+Total: 5.045400 ms (FindLiveObjects: 0.183800 ms CreateObjectMapping: 0.050400 ms MarkObjects: 4.781800 ms  DeleteObjects: 0.028600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 313.309741 seconds.
+  path: Assets/Textures/Square.png
+  artifactKey: Guid(44f1f3c3cfde944f7b9a0d0a4f1e3b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Square.png using Guid(44f1f3c3cfde944f7b9a0d0a4f1e3b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f9f898a92652416723c9f2cafa2d33') in 0.106760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.883325 seconds.
+  path: Assets/ccglp/Procedural2DMap/Editor
+  artifactKey: Guid(e3e33ef6a7445124f9da4a1bf304ce99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ccglp/Procedural2DMap/Editor using Guid(e3e33ef6a7445124f9da4a1bf304ce99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a44ccdc3097cd0f3b3e970d7fd1fb32') in 0.006876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.682276 seconds.
+  path: Assets/Prefabs/Coll.prefab
+  artifactKey: Guid(c585f18d232e74930ab7f85b3e3a5c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Coll.prefab using Guid(c585f18d232e74930ab7f85b3e3a5c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dce2a1e27a6128e58530c51f314e3bd') in 0.038507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.125930 seconds.
+  path: Assets/Resources/BillingMode.json
+  artifactKey: Guid(dc016c0da71a75d4e9ec99f257e60962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/BillingMode.json using Guid(dc016c0da71a75d4e9ec99f257e60962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf22b38da95dff5aa00418560f7c920') in 0.017323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 85.485451 seconds.
+  path: Assets/ccglp/Procedural2DMap/PositivePoint.cs
+  artifactKey: Guid(0331f9101e3e0bc49bce27a532bc7902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ccglp/Procedural2DMap/PositivePoint.cs using Guid(0331f9101e3e0bc49bce27a532bc7902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c945f4a7b439be4f4980c6130f68ec0') in 0.011302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001360 seconds.
+  path: Assets/ccglp/Procedural2DMap/ProceduralMap.cs
+  artifactKey: Guid(222278d76f4d040f482a3bff62e059bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ccglp/Procedural2DMap/ProceduralMap.cs using Guid(222278d76f4d040f482a3bff62e059bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97819b9fd159fa6a2d7ebff395f08b08') in 0.007642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/ccglp/Procedural2DMap/MapSpecifications.cs
+  artifactKey: Guid(2905752510ee93744aea949bab7eb7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ccglp/Procedural2DMap/MapSpecifications.cs using Guid(2905752510ee93744aea949bab7eb7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a03e6fbb845e2e1255691da8f728a9e9') in 0.007654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000859 seconds.
+  path: Assets/ccglp/Procedural2DMap/Line.cs
+  artifactKey: Guid(21030a860cdc24a488574ec4659df176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ccglp/Procedural2DMap/Line.cs using Guid(21030a860cdc24a488574ec4659df176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff68de7d250258f9667433af0b99d3e') in 0.007484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000553 seconds.
+  path: Assets/ccglp/Procedural2DMap/Editor/ProceduralPropertyDrawer.cs
+  artifactKey: Guid(57fa3cf06427de243aef6ff2cf78bc39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ccglp/Procedural2DMap/Editor/ProceduralPropertyDrawer.cs using Guid(57fa3cf06427de243aef6ff2cf78bc39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c205a724f4fa4309cb661c59d5d016d2') in 0.007631 seconds 
